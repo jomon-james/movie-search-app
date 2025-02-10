@@ -6,14 +6,17 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url(./top-view-cinema-equipment.jpg);
+    background-size:cover;
 }
 
 .container {
     text-align: center;
-    background-color: #8be0de;
+    background-color: #94a9b7;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 
 input {
@@ -27,14 +30,14 @@ input {
 button {
     padding: 10px 15px;
     border: none;
-    background-color: #007bff;
-    color: white;
+    background-color: #5c9fad;
+    color: rgb(10, 10, 10);
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #7688c3;
 }
 
 #results {
